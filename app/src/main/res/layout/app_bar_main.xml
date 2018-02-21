@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@android:color/darker_gray"
     tools:context="com.example.bilalelayachi.diepenveen.MainActivity">
 
     <android.support.design.widget.AppBarLayout
@@ -19,12 +20,5 @@
             app:popupTheme="@style/AppTheme.PopupOverlay" />
 
     </android.support.design.widget.AppBarLayout>
-
-    <TextView
-        android:layout_width="147dp"
-        android:layout_height="25dp"
-        android:layout_marginLeft="170dp"
-        android:layout_marginTop="100dp"
-        android:text="Welkom bij onze AK PO" />
 
 </android.support.design.widget.CoordinatorLayout>
