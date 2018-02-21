@@ -20,14 +20,11 @@
 
     </android.support.design.widget.AppBarLayout>
 
-    <include layout="@layout/content_main" />
-
-    <android.support.design.widget.FloatingActionButton
-        android:id="@+id/fab"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="bottom|end"
-        android:layout_margin="@dimen/fab_margin"
-        app:srcCompat="@android:drawable/ic_dialog_email" />
+    <TextView
+        android:layout_width="147dp"
+        android:layout_height="25dp"
+        android:layout_marginLeft="170dp"
+        android:layout_marginTop="100dp"
+        android:text="Welkom bij onze AK PO" />
 
 </android.support.design.widget.CoordinatorLayout>
