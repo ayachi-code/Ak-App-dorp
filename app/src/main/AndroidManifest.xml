@@ -40,7 +40,8 @@
 
         <activity
             android:name=".diepenveenh"
-            android:label="@string/title_activity_diepenveenh"></activity>
+            android:label="@string/title_activity_diepenveenh" />
+        <activity android:name=".Welkom"></activity>
     </application>
 
 </manifest>
