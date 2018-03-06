@@ -20,6 +20,15 @@
             app:popupTheme="@style/AppTheme.PopupOverlay" />
 
     </android.support.design.widget.AppBarLayout>
-    
+
+    <TextView
+        android:layout_width="400dp"
+        android:layout_height="96dp"
+        android:layout_marginTop="300dp"
+        android:text="Hey welkom bij mijn po mijn po gaat over het stadje diepenveen een klein stadjes boven Utrecht klik op de 3 = boven en dan krijg je een navigatie je kan daar info vinden over de stad en wat ino over de topografiesche kaart "
+
+        android:textColor="@android:color/holo_red_dark" />
+
+
 
 </android.support.design.widget.CoordinatorLayout>

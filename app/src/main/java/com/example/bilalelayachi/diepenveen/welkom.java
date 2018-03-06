@@ -3,7 +3,7 @@ package com.example.bilalelayachi.diepenveen;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class Welkom extends AppCompatActivity {
+public class welkom extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
