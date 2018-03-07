@@ -1,5 +1,6 @@
 package com.example.bilalelayachi.diepenveen;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -72,7 +73,8 @@ public class MainActivity extends AppCompatActivity
         int id = item.getItemId();
 
         if (id == R.id.nav_camera) {
-            //Ga naar topo
+            Intent naar_topo = new Intent(MainActivity.this,topo.class);
+            startActivity(naar_topo);
 
         } else if (id == R.id.nav_gallery) {
 

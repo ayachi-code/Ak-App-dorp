@@ -39,7 +39,10 @@
             android:value="@string/google_maps_key" />
 
         <activity android:name=".welkom" />
-        <activity android:name=".topo"></activity>
+        <activity
+            android:name=".topo"
+            android:label="@string/title_activity_topo"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>
