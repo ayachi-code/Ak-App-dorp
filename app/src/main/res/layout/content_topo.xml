@@ -8,4 +8,11 @@
     tools:context="com.example.bilalelayachi.diepenveen.topo"
     tools:showIn="@layout/app_bar_topo">
 
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="75dp"
+        android:text="Om event te beginnen wil ik even wat vertellen over de topografische kaart wat al de symbolen beteken je krijgt een icoon en daar rechts de betekenis van wat het inhoud:) "
+        app:layout_constraintLeft_toLeftOf="parent"
+        tools:layout_editor_absoluteY="28dp" />
 </android.support.constraint.ConstraintLayout>
