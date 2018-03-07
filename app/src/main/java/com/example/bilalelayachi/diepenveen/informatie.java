@@ -1,6 +1,5 @@
 package com.example.bilalelayachi.diepenveen;
 
-import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -14,13 +13,13 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 
-public class topo extends AppCompatActivity
+public class informatie extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_topo);
+        setContentView(R.layout.activity_informatie);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
@@ -47,7 +46,7 @@ public class topo extends AppCompatActivity
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.topo, menu);
+        getMenuInflater().inflate(R.menu.informatie, menu);
         return true;
     }
 
@@ -73,13 +72,8 @@ public class topo extends AppCompatActivity
         int id = item.getItemId();
 
         if (id == R.id.nav_camera) {
-            //ga naar home
-            Intent naar_home = new Intent(topo.this,MainActivity.class);
-            startActivity(naar_home);
+            // Handle the camera action
         } else if (id == R.id.nav_gallery) {
-            //Naar info
-            Intent info = new Intent(topo.this,informatie.class);
-            startActivity(info);
 
         } else if (id == R.id.nav_slideshow) {
 

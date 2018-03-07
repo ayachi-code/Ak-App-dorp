@@ -42,6 +42,10 @@
         <activity
             android:name=".topo"
             android:label="@string/title_activity_topo"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".informatie"
+            android:label="@string/title_activity_informatie"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
