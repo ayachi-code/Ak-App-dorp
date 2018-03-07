@@ -1,5 +1,6 @@
 package com.example.bilalelayachi.diepenveen;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -72,8 +73,13 @@ public class informatie extends AppCompatActivity
         int id = item.getItemId();
 
         if (id == R.id.nav_camera) {
-            // Handle the camera action
+            // naar home scherm
+            Intent naar_home_scherm = new Intent(informatie.this,MainActivity.class);
+            startActivity(naar_home_scherm);
         } else if (id == R.id.nav_gallery) {
+            //Naar topo
+            Intent naar_topo_he = new Intent(informatie.this,topo.class);
+            startActivity(naar_topo_he);
 
         } else if (id == R.id.nav_slideshow) {
 
