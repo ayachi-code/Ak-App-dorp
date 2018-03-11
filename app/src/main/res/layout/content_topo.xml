@@ -10,9 +10,12 @@
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="wrap_content"
-        android:layout_height="75dp"
-        android:text="Om event te beginnen wil ik even wat vertellen over de topografische kaart wat al de symbolen beteken je krijgt een icoon en daar rechts de betekenis van wat het inhoud:) "
-        app:layout_constraintLeft_toLeftOf="parent"
-        tools:layout_editor_absoluteY="28dp" />
+        android:layout_width="391dp"
+        android:layout_height="196dp"
+        android:text="Om even te beginnen wil ik wat vertellen over de topo grafische kaart.Aller eerts begin ik met de vraag wat is een topografische kaart een topo grafische kaart is een kaart waar je een deel van de wereld kunt zien je hebt ook kaarten waar je de egberchten van een gebied ziet.Je ziet ook dat er onder aan vaak tekentjes ziet bijvoorbeeld een vierkant dat zijn vormpjes die je wat vertelen over het gebeid al s je wat info over ze wilt vinden kan je naar de legenda :) "
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 </android.support.constraint.ConstraintLayout>
