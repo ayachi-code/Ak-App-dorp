@@ -82,6 +82,9 @@ public class MainActivity extends AppCompatActivity
             startActivity(info_naar_a);
 
         } else if (id == R.id.nav_slideshow) {
+            //Landshap
+            Intent landschap_gaan = new Intent(MainActivity.this,landschap.class);
+            startActivity(landschap_gaan);
 
         } else if (id == R.id.nav_manage) {
 

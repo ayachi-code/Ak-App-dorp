@@ -14,13 +14,13 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 
-public class informatie extends AppCompatActivity
+public class landschap extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_informatie);
+        setContentView(R.layout.activity_landschap);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
@@ -47,7 +47,7 @@ public class informatie extends AppCompatActivity
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.informatie, menu);
+        getMenuInflater().inflate(R.menu.landschap, menu);
         return true;
     }
 
@@ -73,21 +73,17 @@ public class informatie extends AppCompatActivity
         int id = item.getItemId();
 
         if (id == R.id.nav_camera) {
-            // naar home scherm
-            Intent naar_home_scherm = new Intent(informatie.this,MainActivity.class);
-            startActivity(naar_home_scherm);
+            // Home scherm
+            Intent naar_h = new Intent(landschap.this,MainActivity.class);
+            startActivity(naar_h);
         } else if (id == R.id.nav_gallery) {
-            //Naar topo
-            Intent naar_topo_he = new Intent(informatie.this,topo.class);
-            startActivity(naar_topo_he);
-
+            Intent topo_l = new Intent(landschap.this,topo.class);
+            startActivity(topo_l);
         } else if (id == R.id.nav_slideshow) {
-            //Naar landschap
-            Intent naar_landschap_info = new Intent(informatie.this,landschap.class);
-            startActivity(naar_landschap_info);
-
+            //Naar info
+            Intent naar_info_l = new Intent(landschap.this,informatie.class);
+            startActivity(naar_info_l);
         } else if (id == R.id.nav_manage) {
-
 
         } else if (id == R.id.nav_share) {
 

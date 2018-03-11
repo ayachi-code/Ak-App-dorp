@@ -46,6 +46,10 @@
         <activity
             android:name=".informatie"
             android:label="@string/title_activity_informatie"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".landschap"
+            android:label="@string/title_activity_landschap"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 

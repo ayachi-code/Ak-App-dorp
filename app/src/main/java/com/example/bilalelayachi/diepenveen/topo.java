@@ -82,7 +82,9 @@ public class topo extends AppCompatActivity
             startActivity(info);
 
         } else if (id == R.id.nav_slideshow) {
-
+                    //landschap
+                Intent landschap_o = new Intent(topo.this,landschap.class);
+                startActivity(landschap_o);
         } else if (id == R.id.nav_manage) {
 
         } else if (id == R.id.nav_share) {
