@@ -77,6 +77,9 @@ public class MainActivity extends AppCompatActivity
             startActivity(naar_topo);
 
         } else if (id == R.id.nav_gallery) {
+            //naar info
+            Intent info_naar_a = new Intent(MainActivity.this,informatie.class);
+            startActivity(info_naar_a);
 
         } else if (id == R.id.nav_slideshow) {
 
