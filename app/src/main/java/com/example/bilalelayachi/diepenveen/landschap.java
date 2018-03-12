@@ -84,6 +84,8 @@ public class landschap extends AppCompatActivity
             Intent naar_info_l = new Intent(landschap.this,informatie.class);
             startActivity(naar_info_l);
         } else if (id == R.id.nav_manage) {
+            Intent evenement3 = new Intent(landschap.this,evenementen.class);
+            startActivity(evenement3);
 
         } else if (id == R.id.nav_share) {
 

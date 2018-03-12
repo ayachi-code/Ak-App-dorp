@@ -79,18 +79,18 @@ public class evenementen extends AppCompatActivity
             startActivity(naar_begin_bbb);
         } else if (id == R.id.nav_gallery) {
             //topo
-            Intent topod = new Intent((evenementen.this,topo.class));
+            Intent topod = new Intent(evenementen.this,topo.class);
             startActivity(topod);
 
         } else if (id == R.id.nav_slideshow) {
             //info
-            Intent inoa  = new Intent((evenementen.this,informatie.class))
+            Intent inoa  = new Intent(evenementen.this,informatie.class);
             startActivity(inoa);
 
 
         } else if (id == R.id.nav_manage) {
             //Landschap
-            Intent landschap = new Intent((evenementen.this,landschap.class))
+            Intent landschap = new Intent(evenementen.this,landschap.class);
             startActivity(landschap);
 
         } else if (id == R.id.nav_share) {

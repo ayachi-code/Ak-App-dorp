@@ -87,6 +87,8 @@ public class MainActivity extends AppCompatActivity
             startActivity(landschap_gaan);
 
         } else if (id == R.id.nav_manage) {
+            Intent evenement = new Intent(MainActivity.this,evenementen.class);
+            startActivity(evenement);
 
         } else if (id == R.id.nav_share) {
 
