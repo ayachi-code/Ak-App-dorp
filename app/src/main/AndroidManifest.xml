@@ -54,6 +54,10 @@
         <activity
             android:name=".evenementen"
             android:label="@string/title_activity_evenementen"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".extra"
+            android:label="@string/title_activity_extra"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
