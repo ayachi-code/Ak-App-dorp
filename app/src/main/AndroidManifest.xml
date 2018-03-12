@@ -50,6 +50,10 @@
         <activity
             android:name=".landschap"
             android:label="@string/title_activity_landschap"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".evenementen"
+            android:label="@string/title_activity_evenementen"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
