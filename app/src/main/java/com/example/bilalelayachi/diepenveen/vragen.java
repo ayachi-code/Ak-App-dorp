@@ -90,6 +90,8 @@ public class vragen extends AppCompatActivity
             startActivity(naar_landschap_ad);
 
         } else if (id == R.id.nav_share) {
+            Intent tafel = new Intent(vragen.this,extra.class);
+            startActivity(tafel);
 
         } else if (id == R.id.nav_send) {
             Intent deel_vragen_he = new Intent(vragen.this,vragen.class);

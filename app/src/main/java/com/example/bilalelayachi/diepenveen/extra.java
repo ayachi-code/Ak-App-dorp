@@ -80,17 +80,27 @@ public class extra extends AppCompatActivity
         int id = item.getItemId();
 
         if (id == R.id.nav_camera) {
-            // Handle the camera action
+            // Home scherm
+            Intent naar_h = new Intent(extra.this,MainActivity.class);
+            startActivity(naar_h);
         } else if (id == R.id.nav_gallery) {
-
+            Intent topo_l = new Intent(extra.this,informatie.class);
+            startActivity(topo_l);
         } else if (id == R.id.nav_slideshow) {
-
+            //Naar info
+            Intent naar_info_l = new Intent(extra.this,landschap.class);
+            startActivity(naar_info_l);
         } else if (id == R.id.nav_manage) {
+            Intent evenement3 = new Intent(extra.this,evenementen.class);
+            startActivity(evenement3);
 
         } else if (id == R.id.nav_share) {
+            Intent extra2 = new Intent(extra.this,topo.class);
+            startActivity(extra2);
 
         } else if (id == R.id.nav_send) {
-
+            Intent varejds = new Intent(extra.this,vragen.class);
+            startActivity(varejds);
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);

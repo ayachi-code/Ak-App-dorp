@@ -90,8 +90,12 @@ public class topo extends AppCompatActivity
             startActivity(evenement2);
 
         } else if (id == R.id.nav_share) {
+            Intent extra_ssc = new Intent(topo.this,extra.class);
+            startActivity(extra_ssc);
 
         } else if (id == R.id.nav_send) {
+            Intent deelvragenaas = new Intent(topo.this,vragen.class);
+            startActivity(deelvragenaas);
 
         }
 

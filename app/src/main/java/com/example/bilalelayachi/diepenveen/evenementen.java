@@ -94,8 +94,14 @@ public class evenementen extends AppCompatActivity
             startActivity(landschap);
 
         } else if (id == R.id.nav_share) {
+            //extra
+            Intent extar_vragen = new Intent(evenementen.this,extra.class);
+            startActivity(extar_vragen);
 
         } else if (id == R.id.nav_send) {
+            //deelvragen
+            Intent deelvrae = new Intent(evenementen.this,vragen.class);
+            startActivity(deelvrae);
 
         }
 

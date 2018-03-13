@@ -88,9 +88,12 @@ public class landschap extends AppCompatActivity
             startActivity(evenement3);
 
         } else if (id == R.id.nav_share) {
+            Intent extra2 = new Intent(landschap.this,extra.class);
+            startActivity(extra2);
 
         } else if (id == R.id.nav_send) {
-
+            Intent varejds = new Intent(landschap.this,vragen.class);
+            startActivity(varejds);
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
