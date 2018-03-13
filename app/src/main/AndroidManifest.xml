@@ -58,6 +58,22 @@
         <activity
             android:name=".extra"
             android:label="@string/title_activity_extra"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="www.youtube.com"
+                    android:path="/extra/"
+                    android:scheme="https" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".vragen"
+            android:label="@string/title_activity_vragen"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 

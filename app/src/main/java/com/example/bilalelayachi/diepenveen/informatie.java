@@ -87,7 +87,8 @@ public class informatie extends AppCompatActivity
             startActivity(naar_landschap_info);
 
         } else if (id == R.id.nav_manage) {
-
+            Intent naar_evenemetnem = new Intent(informatie.this,evenementen.class);
+            startActivity(naar_evenemetnem);
 
         } else if (id == R.id.nav_share) {
 

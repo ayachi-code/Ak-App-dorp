@@ -12,4 +12,5 @@
     <string name="title_activity_landschap">landschap</string>
     <string name="title_activity_evenementen">evenementen</string>
     <string name="title_activity_extra">extra</string>
+    <string name="title_activity_vragen">vragen</string>
 </resources>

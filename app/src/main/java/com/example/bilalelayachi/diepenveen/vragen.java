@@ -1,8 +1,6 @@
 package com.example.bilalelayachi.diepenveen;
 
 import android.content.Intent;
-import android.graphics.PixelFormat;
-import android.net.Uri;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -15,17 +13,14 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.widget.Button;
-import android.widget.MediaController;
-import android.widget.VideoView;
 
-public class extra extends AppCompatActivity
+public class vragen extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_extra);
+        setContentView(R.layout.activity_vragen);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
@@ -37,7 +32,6 @@ public class extra extends AppCompatActivity
 
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
-        // ATTENTION: This was auto-generated to handle app links.
     }
 
     @Override
@@ -50,11 +44,10 @@ public class extra extends AppCompatActivity
         }
     }
 
-
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.extra, menu);
+        getMenuInflater().inflate(R.menu.vragen, menu);
         return true;
     }
 
@@ -81,15 +74,26 @@ public class extra extends AppCompatActivity
 
         if (id == R.id.nav_camera) {
             // Handle the camera action
+            Intent nara_de_cherm = new Intent(vragen.this,MainActivity.class);
+            startActivity(nara_de_cherm);
         } else if (id == R.id.nav_gallery) {
-
+                //Topo
+                Intent ed_topo = new Intent(vragen.this,topo.class);
+                startActivity(ed_topo);
         } else if (id == R.id.nav_slideshow) {
-
+                //Naar info
+                Intent naar_topo_ad = new Intent(vragen.this,informatie.class);
+                startActivity(naar_topo_ad);
         } else if (id == R.id.nav_manage) {
+            //naar landschap
+            Intent naar_landschap_ad = new Intent(vragen.this,landschap.class);
+            startActivity(naar_landschap_ad);
 
         } else if (id == R.id.nav_share) {
 
         } else if (id == R.id.nav_send) {
+            Intent deel_vragen_he = new Intent(vragen.this,vragen.class);
+            startActivity(deel_vragen_he);
 
         }
 
