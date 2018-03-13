@@ -91,9 +91,12 @@ public class informatie extends AppCompatActivity
             startActivity(naar_evenemetnem);
 
         } else if (id == R.id.nav_share) {
+            Intent extrsa = new Intent(informatie.this,extra.class);
+            startActivity(extrsa);
 
         } else if (id == R.id.nav_send) {
-
+            Intent deelvrage = new Intent(informatie.this,vragen.class);
+            startActivity(deelvrage);
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
